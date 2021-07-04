@@ -10,6 +10,64 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
 #head{
     display: flex;
+    padding: 0px 90px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+p{
+    color: rgba(0, 0, 0, 0.774);
+}
+
+#head div{
+    width: 45%;
+}
+
+#head img{
+    height: 550px;
+    margin-left: 90px;
+}
+
+#head a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    font-weight: 600;
+}
+
+#Dream{
+    display: flex;
+    padding: 0px 90px;
+    margin-top: 80px;
+}
+
+#Dream img{
+    height: 500px;
+}
+
+#Dream div{
+    width: 45%;
+}
+
+.box{
+    margin-left: 90px;
+}
+
+#Dream a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    font-weight: 600;
 }
